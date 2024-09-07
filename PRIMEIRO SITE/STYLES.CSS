@@ -1,7 +1,65 @@
-.body{
-    
+/* ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #d4c9c7;
+    height:100vh;
 }
 
+.interface{
+    max-width: 12500px;
+    margin: 0 auto;
+    font-size: 23px;
+    height: 200px;
+
+}
+/*  ESTILO CABEÇALHO*/
 header{
+    padding: 0px 2%;
+    background-color: #2d383e;
+    
+    
     
 }
+header > .interface{
+    display: flex;
+    align-items: center;
+   justify-content: space-between; 
+   margin: 0px;
+   padding:0;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #060a0d
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
