@@ -1,5 +1,6 @@
 /* ESTILO GERAL*/
 *{
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +9,7 @@
 body{
     background-color: #d4c9c7;
     height:100vh;
+    
 }
 
 .interface{
@@ -63,3 +65,57 @@ header .btn-contato button{
     cursor: pointer;
 }
 
+.flex{
+    display: flex;
+}
+
+
+
+/* ESTILO TOP SITE */
+.conteudo {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: space-between; /* Adiciona espaço entre o texto e a imagem */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    padding: 20px; /* Adiciona preenchimento ao redor do conteúdo */
+    margin: 30px 100px;
+    
+  }
+
+  .conteudo p{
+    margin: 40px 0;
+  }
+  
+  .texto {
+    flex: 1; 
+    
+  }
+  .texto p{
+    font-size: 25px;
+  }
+  .texto h1{
+    text-decoration: underline;
+    font-size: 50px;
+  }
+  
+  .imagem {
+    flex: 1; /* Faz com que a imagem ocupe o espaço disponível */
+    display: flex; /* Para centralizar a imagem */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    height: 20px 50px;
+  }
+  
+  .imagem img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    
+    
+  }
+
+/* ESTILO CABEÇALHO */
+
+
+  
+  
+  
