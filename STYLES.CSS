@@ -59,17 +59,16 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #060a0d
-    border: 0;
+    background-color: #060a0d;
     border-radius: 30px;
     cursor: pointer;
 }
+    
+
 
 .flex{
     display: flex;
 }
-
-
 
 /* ESTILO TOP SITE */
 .conteudo {
@@ -111,7 +110,7 @@ header .btn-contato button{
     border-radius: 8px; 
     
     
-  }
+}
 
 /* ESTILO dos PROJETOS */
 .titulo {
