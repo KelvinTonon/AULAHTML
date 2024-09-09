@@ -140,9 +140,43 @@ header .btn-contato button{
     
 }
 
-footer {
-    background-color: yellowgreen;
+/* AJUSTE PARA RESPONSIVIDADE */
+@media (max-width: 768px) {
+    header > .interface {
+        flex-direction: column; /* Menu e logo em coluna em telas pequenas */
+        align-items: center;
+    }
+
+    header nav ul li {
+        padding: 0 10px; /* Reduz o padding do menu em telas menores */
+    }
+
+    .conteudo {
+        margin: 10px; /* Margem reduzida em telas menores */
+    }
+
+    .flex {
+        flex-direction: column; /* Imagens em coluna para telas menores */
+        align-items: center;
+    }
+
+    .imgport {
+        width: 80%; /* Imagens ocupam mais largura em telas menores */
+    }
 }
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 35px; /* Tamanho de fonte ajustado em telas muito pequenas */
+    }
+
+    header nav ul li {
+        display: block; /* Menu em lista vertical em telas muito pequenas */
+        padding: 10px 0;
+    }
+}
+
+
 
 
   
