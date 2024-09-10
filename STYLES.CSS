@@ -59,9 +59,10 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #060a0d;
+    background-color:  #0e1315;
     border-radius: 30px;
     cursor: pointer;
+    color: #fff;
 }
     
 
