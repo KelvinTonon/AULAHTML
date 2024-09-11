@@ -36,7 +36,7 @@ header > .interface{
 }
 
 header a{
-    color: inherit;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -190,6 +190,7 @@ footer{
 footer p {
     margin: 0;
     font-size: 12px;
+    position: fixed end;
 
 }
 
